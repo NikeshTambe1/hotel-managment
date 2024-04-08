@@ -1,0 +1,35 @@
+.mb-4{
+    text-align: left;
+    size: 30px;
+   
+}
+
+.about1{
+    font-weight: bold;
+    font-size: 32px;
+    margin: top;
+    padding: 0%;
+    line-height: 10%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.about2{
+
+    font-size: 20px;
+    margin: top;
+    padding: 0%;
+    line-height: 120%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-row{
+    margin-left: 90px;
+    padding: -10px;
+}
+.about12{
+    margin-left: 90px;
+    margin-top: 90px;
+}

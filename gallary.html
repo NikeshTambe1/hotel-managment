@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+{% block head %}
+<!-- Page Header-->
+<header class="masthead" style="background-image: url('static/images/about_us.jpg');">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="site-heading">
+                    <h1>About Us</h1>
+                    <span class="subheading">This is what we do.</span>
+                    <hr />
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Main Content-->
+<main class="mb-4">
+    <style>
+        .main-row {
+            width: 100%;
+            height: 550px;
+            display: inline-flex;
+            margin-top: 4%;
+        }
+    </style>
+    <div class="container">
+        <div class="main-row">
+            <div style="width: 70%; height: 550px; box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19); border-radius: 10px; padding: 20px; background-image: url('static/images/about_homepage.jpg'); background-size: cover;" data-aos="slide-right">
+            </div>
+            <div style="width: 800px; height: 550px; box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19); border-radius: 10px; background-color: white; padding: 20px; position: relative; margin-top: 40px; margin-left: -120px;" data-aos="slide-up">
+                <h5>About.</h5>
+                <p>
+                    We are dedicated to providing exceptional hotel management services that elevate guest experiences and drive profitability. With a proven track record in the hospitality industry, we bring innovation, expertise, and a passion for excellence to every property we manage.<br><br>
+                    Our mission is to redefine the standards of hotel management by delivering unparalleled services that exceed expectations. We strive to create memorable stays for guests while optimizing property performance for our partners and investors.<br><br>
+                    Founded [Year of Establishment], [Your Hotel Management Company Name] has emerged as a leading force in the hotel management sector. Our team of seasoned professionals brings together a diverse range of talents, from operations and marketing to finance and guest services.<br><br>
+                    <h5>Our Portfolio</h5>
+                    With an expanding portfolio of properties spanning [List of Locations], we have successfully managed a diverse range of hotels, from boutique establishments to large resorts. Our proven success is reflected in our consistently high guest ratings and impressive financial performance.<br><br>
+                    <h5>Contact Us</h5>
+                    We welcome inquiries, partnerships, and collaboration opportunities. For more information about our hotel management services, please reach out to our team at [Contact Information].<br><br>
+                    At [Your Hotel Management Company Name], we turn properties into exceptional guest experiences and revenue-generating assets. Partner with us to unlock the full potential of your hotel.
+                </p>
+            </div>
+        </div>
+        <div class="about12"></div>
+    </div>
+</main>
+{% endblock %}

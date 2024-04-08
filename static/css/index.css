@@ -1,0 +1,27 @@
+.boxes{
+    border:darkblue;
+    padding-top: 1000cap;
+    padding: 20px;
+ border:2px solid #F2F3F4;
+    background-color: white;
+    color: black;
+    text-align: center;
+    line-height: 200px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+
+
+  }
+  .btn {
+    background-color: rgb(66, 69, 69);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .index12
+  {
+    margin-right: 240px;
+    margin-left: 100px;
+  }
+  .feedback12{
+    margin-left: 900px;
+  }

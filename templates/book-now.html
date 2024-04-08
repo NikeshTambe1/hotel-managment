@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Room Booking Form</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/book_now.css')}}">
+</head>
+<body>
+    <br><br>
+    <center>
+        <div class="container">
+            <h2>Room Booking Form</h2>
+            <form action="/thank-you" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="contactnumber">Contact Number:</label>
+                    <input type="tel" id="contactnumber" name="contactnumber" pattern="[0-9]{10}" required>
+                </div>
+                <div class="form-group">
+                    <label for="checkindate">Check-in Date:</label>
+                    <input type="date" id="checkindate" name="checkindate" required>
+                </div>
+                <div class="form-group">
+                    <label for="outindate">Check-out Date:</label>
+                    <input type="date" id="outindate" name="outindate" required>
+                </div>
+                <input type="submit" value="Book Room">
+            </form>
+            <button onclick="goBack()" style="background-color:#4CAF50; margin-top: 20px;">Go Back</button>
+            <script>
+                function goBack() {
+                    window.history.back();
+                }
+            </script>
+        </div>
+    </center>
+</body>
+</html>

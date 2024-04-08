@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+{% block head %}
+<!-- Page Header-->
+<header class="masthead" style="background-image: url('static/images/room_booking.jpg');"></div>
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="page-heading">
+                    
+                    <h1>Easy Room Booking - Get Started</h1>
+                    <span class="subheading"> Book a Room in a Few Clicks
+                        <hr>
+                     </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+       
+    </div>>
+    
+</header>
+
+<style>
+    .col-lg-3{
+    border:darkblue;
+    padding-top: 1000cap;
+    padding: 30px;
+
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    line-height: 200px; 
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 50px;
+    margin-left:  100px;
+   
+ }
+</style>
+<!-- Main Content-->
+
+<div class="container-fluid">
+    <div class="row">
+
+        {% for room in data %}
+
+        <div class="col-lg-3">
+            <div class="room_box1">
+                <div style="width:100%; height:70%; background-image: url('static/{{room.image}}'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                </div>
+                <div  style="width: 100%;height: 30%;">
+                    <center><h4>Rs.{{ room.column4 }} /Night</h4>
+                        <a style="margin-top: -40%;" href="book-now?room_id={{ room.column1 }}" class="btn btn-secondary">Book Now</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+        
+    <!-- <div class="col-lg-3">
+        <div style="width: 100%;height: 450px;border-radius: 10px;background-color:rgb(237, 234, 234);">
+            <div style="width: 100%; height: 60%; border-radius: 7px; background-image: url('static/images/{{ data[4] }}'); background-size: cover; background-repeat: no-repeat;" class="box1">
+
+                
+             </div> 
+             <div style="width: 100%; height: 40%;" class="box2">
+                <div style="margin-top: -50px;">
+                    <label style="margin-top: -20px!important; color: black;">Rs.{{ data['column4'] }} /Night</label>
+                    <a href="book-now?room_id="" style="position: absolute; border-radius: 5px; margin-left: -140px; margin-top: 150px;" class="btn btn-secondary">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </div>  -->
+    
+ {% endfor %}
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+    {% endblock %}

@@ -1,0 +1,81 @@
+.mb-4{
+    text-align: left;
+    size: 30px;
+    margin-right: 150px;
+   
+}
+.section-heading{
+    text-align: left;
+    size: 30px;
+
+   
+}
+.Services1{
+    font-weight: bold;
+    font-size: 32px;
+    margin: top;
+    margin-left: -200px;
+    padding: 0%;
+    line-height: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 200px;
+
+}
+
+.Services4  {
+    font-weight: bold;
+    font-size: 32px;
+    margin: top;
+    padding: 0%;
+    line-height: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Services2{
+    font-weight: bold;
+    font-size: 20px;
+    margin: top;
+    padding: 0%;
+    line-height: 10%;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+    .space{
+        padding: left;
+        text-indent: 0%;
+        line-height: 140%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+.room_hour{
+    line-height: 140%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.content-box {
+    width: 400px;
+    margin-left: 680px;
+    margin-top: -520px;
+    max-height: 500px;
+    overflow-y: auto;
+    box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+}
+
+/* Add more styling as needed for the content within #serviceContent */
+#serviceContent {
+    /* Example styles for text content */
+    font-size: 16px;
+    line-height: 1.5;
+}
+.benefits-container li {
+    font-size: 18px;
+    margin-bottom: 10px;
+   
+}

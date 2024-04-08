@@ -1,0 +1,32 @@
+/* .masthead{ */
+    .head {
+        background-image: url('hotelmanagment/templates/1.jpg'); /* Replace with the actual path to your image */
+        background-size: cover; /* Adjust to your preferred background size */
+        background-repeat: no-repeat; /* Prevent image repetition */
+    }
+/* } */
+    .room_box1 {
+        width: 100%;
+        height: 400px;
+        background-color: rgb(238, 232, 232);
+        margin-bottom: 20px;
+        border: 1px solid grey;
+        border-radius: 5px;
+    }
+
+    .box2 {
+        width: 100%;
+        height: 200px;
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    /* .book_now_btn {
+        width: 180px;
+        height: 50px;
+        border-radius: 60px;
+        margin-top:20px;
+        line-height: 20px;  
+    } */
